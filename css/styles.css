@@ -1,0 +1,157 @@
+#title{
+  background-color:#ff4c68;
+  padding-bottom: 6em;
+
+}
+
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color:#fff;
+  size:3.5rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+padding: 0 0 2.5rem 0;
+  }
+.nav-item{
+  padding:0 10px;
+}
+.nav.link{
+  font-size:1.2rem;
+  font-family: "monserrat-light";
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+/* Button */
+.btn2{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  top:0;
+  padding-bottom: 0;
+  right: 30%;
+}
+
+/* Icon for section2 */
+.icon2{
+  color:#ef8172;
+  font-size:5rem;
+  padding-bottom: 2rem;
+}
+.icon2:hover{
+color:#ff4c68;
+}
+
+#features{
+background-color: #fff;
+  text-align: center;
+  padding: 5rem 20%;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-p{
+font-size: 1rem;
+ text-align: center;
+  padding: 0 10%;
+  color:#bfbfbf;
+}
+
+h3{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  padding: 10% 10%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.tesimg{
+  width:5%;
+  border-radius: 100%;
+  margin: 10px;
+  font-size: 1rem;
+  padding: 100px 2% 150px  auto;
+}
+
+.testh2{
+  color: #fff;
+  font-size:4rem;
+}
+
+em{
+  color: #000;
+}
+
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+
+}
+.pressp{
+  padding: 0 10px;
+}
+
+#pricing{
+  text-align: center;
+  padding:0 10%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+.card-header{
+  font-weight: 4rem;
+}
+
+@media (max-width : 1000px){
+  .title-img{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+
+    padding-bottom: 0;
+    right: 30%;
+  }
+
+
+}
+@media (max-width : 770px){
+  .title-img{
+    width: 40%;
+    position: static;
+    transform: rotate(0);
+    padding: 0 auto;
+  }
+  #title{
+    padding-bottom: 2em;
+      text-align: center;
+  }
+
+}
